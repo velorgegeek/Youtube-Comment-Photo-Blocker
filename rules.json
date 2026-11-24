@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "|i.ytimg.com/c_exp^",
+      "initiatorDomains": [ "youtube.com" ],
+      "resourceTypes": [ "image" ]
+    }
+  }
+]
